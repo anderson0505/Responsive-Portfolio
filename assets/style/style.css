@@ -1,0 +1,518 @@
+.name{
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 40px 40px 40px 40px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 500px;
+    text-decoration: none;
+
+}
+
+.header-right{
+    float: right;
+    margin: 35px 525px 20px 400px;
+    font: Verdana, sans-serif;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.atag {
+    text-decoration: none;
+    background-color: white;
+    color: #777777;
+    text-align: center;
+    
+}
+
+.header-right-contact{
+    float: right;
+    margin: auto;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 107px;
+    border-bottom: 1px solid black;
+    border-bottom-color: black;
+    background-color: #ffffff;
+    z-index: 4;
+}
+
+/* .contact{
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+    border-left: #777777;
+}
+
+.portfolio{
+    background-color: white;
+    padding: 10px;
+    border-right-color: gray;
+    text-decoration: none;
+    color: gray;
+}
+
+.about{
+    background-color: white;
+    border-right-color: gray;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+} */
+
+/* .portfolio{
+    float: right;
+    background-color: white;
+    padding: 10px;
+    border-right-color: gray;
+    text-decoration: none;
+    color: gray;
+}
+
+.contact{
+    float: right;
+    background-color: white;
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+    border-left: #777777;
+} */
+
+.aboutme{
+    position: fixed;
+    font: Verdana, sans-serif;
+    color:#4aaaa5;
+    margin: 150px 20px 20px 500px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    background-color: white;
+    max-width: 47%;
+
+}
+
+#pro{
+    float: left;
+    height: 195px;
+    width: 200px;
+    margin: 0px 25px 5px 25px;
+}
+
+p{
+    position: relative;
+    color: #777777;
+    margin: 0px 30px 30px 30px;
+    font-size: large;
+    text-align: justify;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
+    background-color:#666666;
+    color: white;
+    padding: 20px 0 20px 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+}
+
+h1{
+    margin: 20px 20px 40px 20px;
+    border-bottom: 2px solid gray;
+    color: #4aaaa5;
+}
+
+li{
+    color: #777777;
+    list-style-type: none;
+}
+
+button{
+    margin: 10px 150px 15px 40px;
+    padding: 10px 30px 10px 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}
+
+.mainbody{
+    background-color: white;
+}
+
+form{
+    margin: 60px 150px 15px 40px;
+
+}
+
+body{
+    background-image: url(http://bashooka.com/wp-content/uploads/2012/04/patterns_4.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+.portfoliopage{
+    /* position: fixed; */
+    width: 50%;
+    /* top: 168px; */
+    /* left: 500px; */
+    font: Verdana, sans-serif;
+    color:#4aaaa5;
+    border: 1px solid black;
+    background-color: white;
+    margin: 160px auto;
+}
+
+a1{
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+/* .contain1{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+}
+
+.Hangman{
+    position: absolute;
+    bottom: 8px;
+    z-index: 2;
+    width:150px;
+    height: 60px;
+}
+
+#image1{
+    z-index: 1;
+}
+
+.contain2{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+}
+
+.RPG{
+    position: absolute;
+    bottom: 8px;
+    z-index: 2;
+    width:150px;
+    height: 60px;
+}
+
+#image2{
+    z-index: 1;
+}
+
+.contain3{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+}
+
+.Trivia{
+    position: absolute;
+    bottom: 8px;
+    z-index: 2;
+    width:150px;
+    height: 60px;
+}
+
+#image3{
+    z-index: 1;
+}
+
+.contain4{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+}
+
+.Rutgers{
+    position: absolute;
+    bottom: 8px;
+    z-index: 2;
+    width:150px;
+    height: 60px;
+}
+
+#image4{
+    z-index: 1;
+}
+
+.contain5{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-color: #4aaaa5;
+}
+
+.Rock{
+    position: absolute;
+    bottom: 8px;
+    z-index: 2;
+    width:150px;
+    height: 60px;
+}
+
+#image5{
+    z-index: 1;
+} */
+
+
+/* Added this styling 
+nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+  } */
+
+td p {
+    position: relative;
+    background-color:teal;
+    color: #ffffff;
+    height: 30px;
+    width: 200px;
+    z-index: 2;
+    bottom: 80px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    text-align: center;
+    
+}
+
+td img {
+    position: relative;
+    z-index: 1;
+    height:200px;   
+    width: 200px;
+    margin-left: 20px;
+}
+
+#mainhead {
+    position: relative;
+}
+
+.portfoliopage {
+    margin-left: 500px;
+}
+
+@media screen and (max-width: 1900px) {
+    
+    .aboutme {
+        max-width: 75%;
+        margin-right: 3%;
+        margin-left: 3%;
+        width: auto;
+        height: auto;
+        align-content: center;
+    }
+
+    .portfoliopage{
+        max-width: 75%;
+        margin-left: 3%;
+        margin-right: 3%;
+        
+    }
+
+    p {
+        max-height: auto;
+        max-width: auto;
+        margin: 0px 30px 30px 30px;
+    }
+
+    .name {
+        margin-left: 3%;
+
+    }
+
+    .header-right {
+        margin: 35px 25% 20px 20%;
+    }
+
+    .atag {
+        text-decoration: none;
+        background-color: white;
+        color: #777777;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 980px) {
+    
+    .aboutme {
+        max-width: 75%;
+        margin-right: 3%;
+        margin-left: 3%;
+        width: auto;
+        height: auto;
+        align-content: center;
+    }
+
+    .portfoliopage{
+        max-width: 50%;
+        
+    }
+
+    p {
+        max-height: auto;
+        max-width: auto;
+        margin: 0px 30px 30px 30px;
+    }
+
+    .name {
+        margin-left: 3%;
+
+    }
+
+
+    /* Cannot make header right stay in the header from  641px thru 980px*/
+    .header-right {
+         margin: 15% 0% 20px 0px;
+    }
+
+    .atag {
+        text-decoration: none;
+        background-color: white;
+        color: #777777;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutme {
+        max-width: 75%;
+        margin-right: 3%;
+        margin-left: 3%;
+        height: auto;
+        align-content: center;
+    }
+    .portfoliopage{
+        max-width: 50%;
+    }
+
+    /* Cannot make images in table relative to the width of the screen */
+    td img {
+        position: relative;
+    }
+
+    p {
+        max-height: auto;
+        max-width: auto;
+        margin: 0px 30px 30px 30px;
+    }
+
+    .name {
+        margin-left: 3%;
+        margin-right: 0px;
+    }
+
+    .header-right {
+        margin: 15% 1% 20px 1%;
+        
+    }
+
+    .atag {
+        text-decoration: none;
+        background-color: white;
+        color: #777777;
+        text-align: center;
+        
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .aboutme {
+        max-width: 75%;
+        min-width: 200px;
+        margin-right: 3%;
+        margin-left: 3%;
+        height: auto;
+        align-content: center;
+    }
+    .portfoliopage{
+        max-width: 50%;
+    }
+
+    td img {
+        position: relative;
+    }
+
+    p {
+        max-height: auto;
+        max-width: auto;
+        margin: 0px 30px 30px 30px;
+    }
+
+    .name {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-right {
+        width: 100%;
+        position: fixed;
+        top: 108px;
+        margin: 0px 0px 0px 0px;
+        text-align: center
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    .portfolio{
+        text-align: center;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .atag {
+        text-decoration: none;
+        background-color: white;
+        color: #777777;
+        text-align: center;
+        
+    }
+
+    #text {
+        width: auto;
+    }
+
+    form{
+        width: auto;
+    }
+}
+
+
